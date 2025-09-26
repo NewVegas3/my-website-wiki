@@ -13,7 +13,10 @@ function HomepageHeader() {
                 <Heading as="h1" className="hero__title">База знаний</Heading>
                 <p className="hero__subtitle">База знаний и регламенты</p>
                 <div className={styles.buttons}>
-                    <Link className="button button--secondary button--lg" to="/docs/SHOPBASE">
+                    <Link
+                        className="button button--secondary button--lg"
+                        to={useBaseUrl('/docs/shopbase')}   // ← ссылка на категорию с твоим slug
+                    >
                         Перейти к документации
                     </Link>
                 </div>
