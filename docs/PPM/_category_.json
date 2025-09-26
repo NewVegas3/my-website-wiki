@@ -1,0 +1,11 @@
+{
+  "label": "PPM",
+  "position": 4,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "slug": "/ppm",
+    "title": "PPM",
+    "description": "Документация по страницам Oracle APEX (PPM)."
+  }
+}

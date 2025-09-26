@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 1.5rem 0 0.75rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -20,4 +20,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* растягиваем блок на всю ширину экрана */
+.fullBleed {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
+
+/* делаем картинку крупной и «обрезаем» по высоте, чтобы больше было видно сразу */
+.heroImage {
+  width: 100%;
+  height: 70vh;         /* сколько экрана занимает по высоте */
+  object-fit: cover;    /* обрезает лишнее по краям, без искажений */
+  display: block;
 }

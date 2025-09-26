@@ -1,0 +1,10 @@
+{
+  "label": "SHOPBASE",
+  "position": 2,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "slug": "/shopbase",
+    "description": "Документация по страницам SHOPBASE Oracle APEX."
+  }
+}
